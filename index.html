@@ -10,6 +10,8 @@
     <!-- Bootstrap CSS v5.2.1 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -19,6 +21,7 @@
                 <a class="navbar-brand" href="#">
                     <img src="./img/duck.png" alt="" width="40">
                 </a>
+                <!--img logo-->
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarID"
                     aria-controls="navbarID" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -38,6 +41,7 @@
                             <a class="nav-link" href="#">Help</a>
                         </li>
                     </ul>
+                    <!--item-->
                 </div>
             </div>
         </nav>
@@ -48,6 +52,7 @@
                 <h1>Catalogo Libri</h1>
                 <button type="button" class="btn btn-primary">Aggiungi Libro</button>
             </div>
+            <!-- pulsante-->
         </section>
 
         <section>
@@ -59,91 +64,140 @@
                                 <th scope="col">Titolo</th>
                                 <th scope="col">Data prestito</th>
                                 <th scope="col">Stato</th>
-
+                                <th scope="col">Azioni</th>
                             </tr>
+                            <!--titoli tabella-->
                         </thead>
 
                         <tr>
                             <td>I pilastri della terra</td>
                             <td>-</td>
                             <td><div class="bg-success rounded-pill text-white text-center"><strong>Disponibile</strong></div></td>
-                            <td>Otto</td>
+                            <td><div class="d-grid gap-2 d-flex">
+                                <button class="btn btn-outline-secondary " type="button"><i class="fa-solid fa-pencil"></i></button>
+                                <button class="btn btn-outline-secondary" type="button"><i class="fa-solid fa-trash-can"></i></button>
+                              </div></td>
+                            <!--contenuto di una riga della tabella-->
                         </tr>
                         <tr>
                             <td>Ipromessi sposi</td>
                             <td>-</td>
                             <td><div class="bg-success rounded-pill text-light text-center"><strong>Disponibile</strong></div></td>
-                            <td>Otto</td>
+                            <td><div class="d-grid gap-2 d-flex"></div>
+                                <button class="btn btn-outline-secondary " type="button"><i class="fa-solid fa-pencil"></i></button>
+                                <button class="btn btn-outline-secondary" type="button"><i class="fa-solid fa-trash-can"></i></button>
+                              </div></td>
+                            <!--contenuto di una riga della tabella-->
                         </tr>
                         
                         <tr>
                             <td>Il signore degli anelli</td>
                             <td><data>18/10/2023</data></td>
                             <td><div class="bg-warning rounded-pill text-light text-center"><strong>In prestito</strong></div></td>
-                            <td>Otto</td>
+                            <td><div class="d-grid gap-2 d-flex"></div>
+                                <button class="btn btn-outline-secondary " type="button"><i class="fa-solid fa-pencil"></i></button>
+                                <button class="btn btn-outline-secondary" type="button"><i class="fa-solid fa-trash-can"></i></button>
+                              </div></td>
+                            <!--contenuto di una riga della tabella-->
                         </tr>
                         
                         <tr>
                             <td>Harry poter e la pietra filosofale</td>
                             <td>-</td>
                             <td><div class="bg-success rounded-pill text-light text-center"><strong>Disponibile</strong></div></td>
-                            <td>Otto</td>
+                            <td><div class="d-grid gap-2 d-flex"></div>
+                                <button class="btn btn-outline-secondary " type="button"><i class="fa-solid fa-pencil"></i></button>
+                                <button class="btn btn-outline-secondary" type="button"><i class="fa-solid fa-trash-can"></i></button>
+                              </div></td>
+                            <!--contenuto di una riga della tabella-->
                         </tr>
                         
                         <tr>
                             <td>Il codice Da Vinci</td>
                             <td>-</td>
                             <td><div class="bg-danger rounded-pill text-light text-center"><strong>Non Disponibile</strong></div></td>
-                            <td>Otto</td>
+                            <td><div class="d-grid gap-2 d-flex"></div>
+                                <button class="btn btn-outline-secondary " type="button"><i class="fa-solid fa-pencil"></i></button>
+                                <button class="btn btn-outline-secondary" type="button"><i class="fa-solid fa-trash-can"></i></button>
+                              </div></td>
+                            <!--contenuto di una riga della tabella-->
                         </tr>
                         
                         <tr>
                             <td>Shining</td>
                             <td>-</td>
                             <td><div class="bg-success rounded-pill text-light text-center"><strong>Disponibile</strong></div></td>
-                            <td>Otto</td>
+                            <td><div class="d-grid gap-2 d-flex"></div>
+                                <button class="btn btn-outline-secondary " type="button"><i class="fa-solid fa-pencil"></i></button>
+                                <button class="btn btn-outline-secondary" type="button"><i class="fa-solid fa-trash-can"></i></button>
+                              </div></td>
+                            <!--contenuto di una riga della tabella-->
                         </tr>
                         
                         <tr>
                             <td>La divina commedia</td>
                             <td><data>21/09/2023</data></td>
                             <td><div class="bg-warning rounded-pill text-light text-center"><strong>In prestito</strong></div></td>
-                            <td>Otto</td>
+                            <td><div class="d-grid gap-2 d-flex"></div>
+                                <button class="btn btn-outline-secondary " type="button"><i class="fa-solid fa-pencil"></i></button>
+                                <button class="btn btn-outline-secondary" type="button"><i class="fa-solid fa-trash-can"></i></button>
+                              </div></td>
+                            <!--contenuto di una riga della tabella-->
                         </tr>
                         
                         <tr>
                             <td>Il trono di spade</td>
                             <td>-</td>
                             <td><div class="bg-success rounded-pill text-light text-center"><strong>Disponibile</strong></div></td>
-                            <td>Otto</td>
+                            <td><div class="d-grid gap-2 d-flex"></div>
+                                <button class="btn btn-outline-secondary " type="button"><i class="fa-solid fa-pencil"></i></button>
+                                <button class="btn btn-outline-secondary" type="button"><i class="fa-solid fa-trash-can"></i></button>
+                              </div></td>
+                            <!--contenuto di una riga della tabella-->
                         </tr>
                         
                         <tr>
                             <td>Il mondo di Sofia</td>
                             <td>-</td>
                             <td><div class="bg-danger rounded-pill text-light text-center"><strong>Non Disponibile</strong></div></td>
-                            <td>Otto</td>
+                            <td><div class="d-grid gap-2 d-flex"></div>
+                                <button class="btn btn-outline-secondary " type="button"><i class="fa-solid fa-pencil"></i></button>
+                                <button class="btn btn-outline-secondary" type="button"><i class="fa-solid fa-trash-can"></i></button>
+                              </div></td>
+                            <!--contenuto di una riga della tabella-->
                         </tr>
                         
                         <tr>
                             <td>Le cronache di Narnia: il leone, la strega, e l'armadio</td>
                             <td><data>25/07/2023</data></td>
                             <td><div class="bg-warning rounded-pill text-light text-center"><strong>In prestito</strong></div></td>
-                            <td>Otto</td>
+                            <td><div class="d-grid gap-2 d-flex"></div>
+                                <button class="btn btn-outline-secondary " type="button"><i class="fa-solid fa-pencil"></i></button>
+                                <button class="btn btn-outline-secondary" type="button"><i class="fa-solid fa-trash-can"></i></button>
+                              </div></td>
+                            <!--contenuto di una riga della tabella-->
                         </tr>
                         
                         <tr>
                             <td>Il piccolo principe</td>
                             <td>-</td>
                             <td><div class="bg-success rounded-pill text-light text-center"><strong>Disponibile</strong></div></td>
-                            <td>Otto</td>
+                            <td><div class="d-grid gap-2 d-flex"></div>
+                                <button class="btn btn-outline-secondary " type="button"><i class="fa-solid fa-pencil"></i></button>
+                                <button class="btn btn-outline-secondary" type="button"><i class="fa-solid fa-trash-can"></i></button>
+                              </div></td>
+                            <!--contenuto di una riga della tabella-->
                         </tr>
 
                         <tr>
                             <td>La storia infinita</td>
                             <td>-</td>
                             <td><div class="bg-success rounded-pill text-light text-center"><strong>Disponibile</strong></div></td>
-                            <td>Otto</td>
+                            <td><div class="d-grid gap-2 d-flex"></div>
+                                <button class="btn btn-outline-secondary " type="button"><i class="fa-solid fa-pencil"></i></button>
+                                <button class="btn btn-outline-secondary" type="button"><i class="fa-solid fa-trash-can"></i></button>
+                              </div></td>
+                            <!--contenuto di una riga della tabella-->
                         </tr>
                         </tbody>
                     </table>
