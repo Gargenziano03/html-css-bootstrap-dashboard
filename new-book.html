@@ -52,29 +52,37 @@
     </header>
     <main>
         <div class="container">
+
             <h1 class="pb-3">Nuovo Libro</h1>
 
             <div class="row">
                 <div class="col-6">
-                    <label for="validationCustom01" class="form-label">Nome Autore</label>
+                    <label for="validationCustom01" class="form-label">
+                        <strong>Nome Autore</strong>
+                    </label>
                     <input type="text" class="form-control" placeholder="Inserisci il nome dell'autore"
                         aria-label="Inserisci il nome dell'autore">
                 </div>
                 <!--nome autore-->
                 <div class="col-6">
-                    <label for="validationCustom02" class="form-label">Cognome Autore</label>
+                    <label for="validationCustom02" class="form-label">
+                        <strong>Cognome Autore</strong>
+                    </label>
                     <input type="text" class="form-control" placeholder="Inserisci il cognome dell'autore"
                         aria-label="Inserisci il cognome dell'autore">
                 </div>
                 <!--cognome autore-->
                 <div class="pt-3 col-12">
-                    <label for="validationCustom02" class="form-label">Titolo</label>
+                    <label for="validationCustom03" class="form-label">
+                        <strong>Titolo</strong>
+                    </label>
                     <input type="text" class="form-control" placeholder="Inserisci il titolo del libro"
                         aria-label="Inserisci il titolo del libro">
                     <div class="form-text">Titolo versione italiana</div>
                 </div>
                 <!--titolo-->
-                <div class="pt-3 col-sm-4">Genere
+                <div class="pt-3 col-sm-4">
+                    <strong>Genere</strong>
                     <select class="form-select" aria-label="Default select example">
                         <option selected>Scegli il genere</option>
                         <option value="1">Uomo</option>
@@ -84,15 +92,19 @@
                 </div>
                 <!--genere-->
                 <div class="pt-3 col-sm-4">
-                    <label for="validationCustom02" class="form-label">Anno di Pubblicazione</label>
-                <input type="text" class="form-control" placeholder="Inserisci l'anno"
-                    aria-label="Inserisci l'anno">
+                    <label for="validationCustom04" class="form-label">
+                        <strong>Anno di pibblicazione</strong>
+                    </label>
+                    <input type="text" class="form-control" placeholder="Inserisci l'anno"
+                        aria-label="Inserisci l'anno">
                 </div>
                 <!--data-->
                 <div class="pt-3 col-sm-4">
-                    <label for="validationCustom02" class="form-label">ISBN#</label>
-                <input type="text" class="form-control" placeholder="Inserisci il codice ISBN#"
-                    aria-label="IInserisc il codice ISBN#">
+                    <label for="validationCustom05" class="form-label">
+                        <strong>ISBN#</strong>
+                    </label>
+                    <input type="text" class="form-control" placeholder="Inserisci il codice ISBN#"
+                        aria-label="IInserisc il codice ISBN#">
                 </div>
                 <!--ISBN#-->
             </div>
@@ -101,33 +113,27 @@
 
             <div class="container">
                 <div class="pb-3 note">
-                    Note
+                    <h4>Note</h4>
                     <div class="form-floating">
-                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
-                        <label for="floatingTextarea2">Comments</label>
-                      </div>
+                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                            style="height: 100px"></textarea>
+                        <label for="floatingTextarea2">Inserisci eventuali note sul libro</label>
+                    </div>
                 </div>
+                <!--note libro-->
 
-                <div class="form-check">
+                <div class="pb-3 form-check">
                     <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                     <label class="form-check-label" for="flexCheckDefault">
-                      <strong>Disponibile anche in digitale</strong>
+                        <strong>Disponibile anche in digitale</strong>
                     </label>
-                  </div>
-              
+                </div>
+                <!--checkbox-->
 
+                <button type="submit" class="btn btn-primary">Aggiungi Libro</button>
+                <!--button-->
             </div>
-              
-
-
         </div>
-        </div>
-        </div>
-
-
-
-
-
     </main>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
